@@ -3,7 +3,7 @@ SHELL = /bin/sh
 
 # Compiler to use
 CC = g++
-CFLAGS = -O2
+CFLAGS ?= -O2
 #CFLAGS += -g -Wall
 #CFLAGS += -ansi
 #CFLAGS += -pedantic
@@ -37,7 +37,7 @@ CFLAGS += -DUSE_STACKSIZE_CUSTOMIZATION
 CFLAGS += -pthread
 
 # External libraries
-LDFLAGS = -lbz2
+LDFLAGS += -lbz2
 LDFLAGS += -lpthread
 
 # Where you want pbzip2 installed when you do 'make install'
