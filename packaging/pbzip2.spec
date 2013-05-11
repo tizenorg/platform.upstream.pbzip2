@@ -31,6 +31,7 @@ ln -s pbzip2 %{buildroot}%{_bindir}/pbzcat
 %docs_package
 
 %files
+%license COPYING
 %{_bindir}/pbzip2
 %{_bindir}/pbunzip2
 %{_bindir}/pbzcat

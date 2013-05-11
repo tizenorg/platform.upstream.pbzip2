@@ -1,3 +1,6 @@
+* Sat May 11 2013 Anas Nashif <anas.nashif@intel.com> submit/tizen/20130509.182756@e5e5aeb
+- Set license using %license
+
 * Tue Mar 05 2013 Patrick McCarty <patrick.mccarty@linux.intel.com> upstream/1.1.6@16bd24b
 - Add packaging
 - Avoid overwriting CFLAGS and LDFLAGS
