@@ -6,6 +6,7 @@ URL:            http://www.compression.ca/pbzip2/
 License:        BSD
 Group:          Applications/Other
 Source0:        %{name}-%{version}.tar.gz
+Source1001: 	pbzip2.manifest
 BuildRequires:  bzip2-devel
 BuildRequires:  gcc-c++
 
@@ -18,6 +19,7 @@ decompressed with bzip2).
 
 %prep
 %setup -q
+cp %{SOURCE1001} .
 
 %build
 make %{?_smp_mflags}
@@ -31,6 +33,7 @@ ln -s pbzip2 %{buildroot}%{_bindir}/pbzcat
 %docs_package
 
 %files
+%manifest %{name}.manifest
 %license COPYING
 %{_bindir}/pbzip2
 %{_bindir}/pbunzip2
