@@ -1,0 +1,8 @@
+Change-Id: Ib5f73dfa628887a6646cdf1f5ef259b7e87cd83d
+Code-Review+2: Ryan Ware <ware@linux.intel.com>
+Verified+1: Ryan Ware <ware@linux.intel.com>
+Submitted-by: Ryan Ware <ware@linux.intel.com>
+Submitted-at: Mon, 08 Jul 2013 09:37:09 -0700
+Reviewed-on: https://review.tizen.org/gerrit/5244
+Project: platform/upstream/pbzip2
+Branch: refs/heads/tizen
